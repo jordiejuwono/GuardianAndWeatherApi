@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/bg_bottom_nav.xml" value="0.114" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/bg_categories.xml" value="0.112" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/bg_categories_2.xml" value="0.112" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/bg_weather_details.xml" value="0.181" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/bottom_nav_color.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/gradient_color_list.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/gradient_color_weather.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/gradient_color_weather_2.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/gradient_color_weather_3.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/gradient_grey.xml" value="0.181" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/ic_delete.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/ic_news.xml" value="0.1595" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/ic_search_news.xml" value="0.1595" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/ic_search_white.xml" value="0.1" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/drawable/ic_weather.xml" value="0.185" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/activity_article_list.xml" value="0.2" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/activity_main.xml" value="0.3046875" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/activity_search_article.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/activity_splash_screen.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/activity_web_view.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/article_row.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/fragment_article_list.xml" value="0.3886255924170616" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/fragment_article_list_section.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/fragment_categories.xml" value="0.25903939557474365" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/fragment_main.xml" value="0.16" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/fragment_saved_articles.xml" value="0.225" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/fragment_search_article.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/fragment_weather.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/saved_articles_info.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/test_layout.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/weather_day_item.xml" value="0.264" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/layout/weather_hourly_item.xml" value="0.4" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/menu/menu_saved_article.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/menu/top_menu.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/GuardianApi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1215" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/drawable/bg_weather_details.xml" value="0.1495" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/activity_web_view.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/article_row.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/fragment_article_list.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/fragment_article_list_section.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/fragment_saved_articles.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/fragment_search_article.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/fragment_weather.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/saved_articles_info.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/shimmer_layout.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/weather_day_item.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/layout/weather_hourly_item.xml" value="0.25" />
+        <entry key="..\:/Users/jordi/Portfolio/Kotlin/GuardianApi/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
