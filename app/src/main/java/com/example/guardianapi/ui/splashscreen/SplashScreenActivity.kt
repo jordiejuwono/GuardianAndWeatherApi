@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
-import com.example.guardianapi.R
 import com.example.guardianapi.databinding.ActivitySplashScreenBinding
 import com.example.guardianapi.ui.main.MainActivity
 

@@ -18,7 +18,6 @@ class ArticleListSectionViewModel
     private val articleListSectionResponse = MutableLiveData<Resource<GuardianApiResponse>>()
 
     override fun getArticleListBySection(currentPage: Int, section: String) {
-//        articleListResponseLiveData.value = Resource.Loading()
         viewModelScope.launch(Dispatchers.IO) {
             try {
                 val response = repository.getArticleListBySection(currentPage, section)

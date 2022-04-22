@@ -1,7 +1,6 @@
 package com.example.guardianapi.ui.article.savedarticles
 
 import androidx.lifecycle.LiveData
-import com.example.guardianapi.base.model.Resource
 import com.example.guardianapi.data.local.room.entity.Articles
 
 interface SavedArticlesContract {

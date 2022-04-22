@@ -21,7 +21,6 @@ import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-
 @AndroidEntryPoint
 class SearchArticleFragment :
     BaseFragment<FragmentSearchArticleBinding, SearchArticleViewModel>(FragmentSearchArticleBinding::inflate),

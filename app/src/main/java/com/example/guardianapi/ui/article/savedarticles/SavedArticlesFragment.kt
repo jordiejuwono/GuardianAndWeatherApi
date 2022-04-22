@@ -14,7 +14,6 @@ import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieDrawable
 import com.example.guardianapi.R
 import com.example.guardianapi.base.arch.BaseFragment
-import com.example.guardianapi.base.model.Resource
 import com.example.guardianapi.data.local.room.entity.Articles
 import com.example.guardianapi.databinding.FragmentSavedArticlesBinding
 import com.example.guardianapi.ui.adapter.SavedArticlesAdapter
@@ -22,8 +21,6 @@ import com.example.guardianapi.ui.webview.WebViewActivity
 import com.example.guardianapi.utils.ArticleData
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.MainScope
-import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class SavedArticlesFragment :

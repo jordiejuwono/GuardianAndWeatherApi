@@ -3,17 +3,17 @@
     <item
         android:id="@+id/menu_news"
         android:icon="@drawable/ic_news"
-        android:title="News" />
+        android:title="@string/title_news" />
     <item
         android:id="@+id/menu_saved_articles"
         android:icon="@drawable/ic_saved"
-        android:title="Saved" />
+        android:title="@string/title_saved" />
     <item
         android:id="@+id/menu_weather"
         android:icon="@drawable/ic_weather"
-        android:title="Weather" />
+        android:title="@string/title_weather" />
     <item
         android:id="@+id/menu_search"
         android:icon="@drawable/ic_search"
-        android:title="Explore" />
+        android:title="@string/title_explore" />
 </menu>

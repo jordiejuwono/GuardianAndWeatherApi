@@ -30,19 +30,10 @@ class WeatherFragment :
     override fun initView() {
         getData()
         setOnRefreshListener()
-//        setGradientBackground()
         initListWeather()
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == android.R.id.home) {
-
-        }
-        return super.onOptionsItemSelected(item)
-    }
-
     override fun getData() {
-//        getViewModel().getWeatherData()
         getViewModel().getWeatherOneCallData()
     }
 
@@ -82,14 +73,6 @@ class WeatherFragment :
         }
     }
 
-//    private fun setGradientBackground() {
-//        val constraintLayout: ConstraintLayout = getViewBinding().clGradientColor
-//        val animationBackground: AnimationDrawable = constraintLayout.background as AnimationDrawable
-//        animationBackground.setEnterFadeDuration(1500)
-//        animationBackground.setExitFadeDuration(3000)
-//        animationBackground.start()
-//    }
-
     override fun setDataToView(response: WeatherOneCallResponse) {
         val temperature = response.current?.temp?.minus(273.15)
         val temperatureFelt = response.current?.feelsLike?.minus(273.15)
@@ -101,27 +84,24 @@ class WeatherFragment :
         val temperatureMinFormat = DecimalFormat("##").format(temperatureMin)
         val temperatureMaxFormat = DecimalFormat("##").format(temperatureMax)
         val windSpeedFormat = DecimalFormat("##").format(windSpeed)
-        val weatherIcon = response.current?.weather!![0].icon
 
-        getViewBinding().tvTimezone.text = "Jakarta"
-//            (response.timezone)?.slice(5 until getViewBinding().tvTimezone.text.length)
+        getViewBinding().tvTimezone.text = getString(R.string.text_jakarta)
         getViewBinding().tvTemperature.text = temperatureResponse?.toString()
         getViewBinding().tvTemperatureFelt.text = temperatureFeelsLike?.toString()
         getViewBinding().tvTemperatureMin.text = temperatureMinFormat.toString()
         getViewBinding().tvTemperatureMax.text = temperatureMaxFormat.toString()
         getViewBinding().tvWeatherMain.text = response.current?.weather!![0].main
-//        getViewBinding().tvWeatherDescription.text = response.current?.weather!![0].description
         getViewBinding().tvAirPressure.text = response.current?.pressure.toString()
         getViewBinding().tvHumidity.text = response.current?.humidity.toString()
         getViewBinding().tvWindSpeed.text = windSpeedFormat.toString()
 
         when (getViewBinding().tvWeatherMain.text.toString().trim().lowercase()) {
-            "clouds" -> {
+            getString(R.string.text_clouds) -> {
                 getViewBinding().ivWeather.load(R.drawable.ic_clouds) {
                     crossfade(true)
                 }
             }
-            "thunderstorm" -> {
+            getString(R.string.text_thunderstorm) -> {
                 getViewBinding().ivWeather.load(R.drawable.ic_thunderstorm) {
                     crossfade(true)
                 }
@@ -132,10 +112,6 @@ class WeatherFragment :
                 }
             }
         }
-
-//        getViewBinding().ivWeather.load("https://openweathermap.org/img/wn/$weatherIcon.png") {
-//            crossfade(true)
-//        }
 
     }
 

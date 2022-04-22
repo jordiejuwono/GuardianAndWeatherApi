@@ -47,4 +47,13 @@
     <string name="text_web_title">News</string>
     <string name="text_title_recent_news">Recent News</string>
     <string name="text_see_all_results">See All Results</string>
+    <string name="text_jakarta">Jakarta</string>
+    <string name="text_clouds">clouds</string>
+    <string name="text_thunderstorm">thunderstorm</string>
+    <string name="title_news">News</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_weather">Weather</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_save">Save</string>
+    <string name="title_share">Share</string>
 </resources>
