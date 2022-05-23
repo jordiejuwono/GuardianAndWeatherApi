@@ -36,18 +36,18 @@ class SearchArticleFragment :
         initList()
         initSwipeRefresh()
         addPagination()
-        setOnScrollListener()
+        setQueryTextListener()
     }
 
     override fun getData() {
         if (getViewBinding().etSearchArticle.text!!.isNotEmpty()){
             getViewModel().getSearchedArticleList(getViewBinding().etSearchArticle.text.toString(), page)
         }
-        setOnScrollListener()
+        setQueryTextListener()
     }
 
 
-    override fun setOnScrollListener(){
+    override fun setQueryTextListener(){
         var job: Job? = null
         getViewBinding().etSearchArticle.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}

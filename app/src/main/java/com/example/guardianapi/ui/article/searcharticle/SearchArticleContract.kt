@@ -13,7 +13,7 @@ interface SearchArticleContract {
         fun initSwipeRefresh()
         fun setDataAdapter(data: List<Result>)
         fun addPagination()
-        fun setOnScrollListener()
+        fun setQueryTextListener()
         fun handleNoResults(data : GuardianApiResponse)
     }
 
